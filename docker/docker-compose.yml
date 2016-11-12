@@ -1,0 +1,8 @@
+version: '2'
+services:
+  couchbase:
+    image: couchbase/server:4.5.1
+    ports:
+      - "8091-8094:8091-8094"
+      - "11210:11210"
+
